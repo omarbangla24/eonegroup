@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sed -i '' 's|<a href=\"./contact\">Contact</a>|<a href=\"#site-footer\">Contact</a>|g' ironwall-it-security-service.html)",
+      "Bash(sed -i '' 's|<footer class=\"et-l et-l--footer\">|<footer id=\"site-footer\" class=\"et-l et-l--footer\">|g' ironwall-it-security-service.html)",
+      "Bash(sed -i '' 's|<a href=\"./contact\">Contact</a>|<a href=\"#site-footer\">Contact</a>|g' soltech-it-support-canberra.html)",
+      "Bash(sed -i '' 's|<a href=\"./contact\">Get A Free Quote</a>|<a href=\"#site-footer\">Get A Free Quote</a>|g' soltech-it-support-canberra.html)",
+      "Bash(sed -i '' 's|<footer class=\"et-l et-l--footer\">|<footer id=\"site-footer\" class=\"et-l et-l--footer\">|g' soltech-it-support-canberra.html)",
+      "Bash(sed -i '' 's|href=\"./ironwall-it-security-service\"|href=\"./ironwall-it-security-service/\"|g' index.html)",
+      "Bash(sed -i '' 's|href=\"./soltech-it-support-canberra\"|href=\"./soltech-it-support-canberra/\"|g' index.html)",
+      "Bash(sed -i '' 's|href=\"./ironnest-constructions-and-development\"|href=\"./ironnest-constructions-and-development/\"|g' index.html)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}
